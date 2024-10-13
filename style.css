@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "DM Sans", sans-serif;
+    box-sizing: border-box;
+}
+.main{
+    display: flex;
+    justify-content: center;
+}
+
+.main .wrapper{
+    width: 100%;
+    max-width: 1920px;
+    height: 1072px;
+    background-image: url(./image/empty-living-room-with-blue-sofa-plants-table-empty-white-wall-background-3d-rendering\ \(1\)\ 1.png);
+}
+.main .wrapper .hold {
+    padding: 30px 140px;
+}
+.main .wrapper .hold .icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 48px;
+}
+.main .wrapper .hold .icons .left{
+    display: flex;
+    gap:55px;
+}
+.main .wrapper .hold .icons .left img {
+    width: 14px;
+    height: 14px;
+}
+.main .wrapper .hold .icons .right{
+    display: flex;
+    gap: 6px;
+}
+.main .wrapper .hold .icons .right h6{
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.main .wrapper .hold nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 102px;
+}
+.main .wrapper .hold nav .items {
+    display: flex;
+    justify-content: space-between;
+    gap: 276px;
+}
+.main .wrapper .hold nav .items .logo{
+    display: flex;
+    gap: 6px;
+}
+.main .wrapper .hold nav .items .logo .words h5 {
+    font-size: 18px;
+    line-height: 15px;
+    font-weight: 400;
+}
+.main .wrapper .hold nav .items .login ul{
+    display: flex;
+}
+.main .wrapper .hold nav .items .login ul li{
+    list-style: none;
+    margin-left: 53px;
+}
+.main .wrapper .hold nav .items .login ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+}
+.main .wrapper .hold nav .button .btn-1{
+    font-size: 16px;
+    padding: 15px;
+    border-radius: 50px;
+    border: 2px solid #0957CB;
+    margin-right: 38px;
+    color: #0957CB;
+}
+.main .wrapper .hold nav .button .btn-2{
+    font-size: 16px;
+    padding: 15px;
+    border-radius: 50px;
+    color: white;
+    background-color: #0957CB;
+    border: none;
+    width: 100px;
+}
+
+.main .wrapper .hold .hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 154px;
+}
+.main .wrapper .hold .hero .words{
+    margin-right: 735px;
+    margin-top: 55px;
+}
+.main .wrapper .hold .hero .words h1{
+    font-size: 68px;
+    font-weight: 500;
+    line-height: 79px;
+    width: 585px;
+}
+.main .wrapper .hold .hero .words h5{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    width: 330px;
+}
+.main .wrapper .hold .hero .picture{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 328px;
+    height: fit-content;
+    background-color: white;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.main .wrapper .hold .hero .picture .image{
+    width: 100%;
+    max-width: 202px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.main .wrapper .hold .hero .picture .details {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+}
+.main .wrapper .hold .hero .picture .details .address{
+    display: flex;
+    justify-content: space-between;
+}
+.main .wrapper .hold .hero .picture .details .address .circle{
+    height: 50px;
+    width: 50px;
+    margin-top: 17px;
+}
+.main .wrapper .hold .hero .picture .details .address .name h3 {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    margin-top: 17px;
+}
+.main .wrapper .hold .hero .picture .button{
+    margin-top: 17px;
+}
+.main .wrapper .hold .hero .picture .button .btn-3{
+    width: 70px;
+    height: 20px;
+    background-color: #acf7b0;
+    font: 12px;
+    color: #4ABC4F;
+    border-radius: 10px;
+    border: none;
+    font-weight: 400;
+}
+.main .wrapper .hold .hero .picture .button h4{
+    font-weight: 700;
+    font-size: 16px;
+}
+.main .wrapper .hold .final {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1058px;
+    background-color: white;
+    border-radius: 17px;
+    padding: 27px;
+}
+.main .wrapper .hold .final .left .up{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 23px;
+    margin-bottom:20px;
+}
+.main .wrapper .hold .final .left .up h6{
+    font-size: 16px;
+    font-weight: 400;
+}
+.main .wrapper .hold .final .left .up .rent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* width: 100%; */
+    width: 129px;
+    border-radius: 22px;
+    background-color: #F4F4F4;
+    gap: 13px;
+    padding: 15px;
+}
+.main .wrapper .hold .final .left .up .location input{
+    /* width: 100%; */
+    width: 471px;
+    padding: 15px;
+    background-color:#F4F4F4;
+    border-radius: 22px;
+    border: none;
+}
+.main .wrapper .hold .final .left .up .house{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* width: 100%; */
+    width: 170px;
+    border-radius: 22px;
+    background-color: #F4F4F4;
+    gap: 13px;
+    padding: 15px;
+} 
+.main .wrapper .hold .final .left .down {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* gap: 23px; */
+}
+.main .wrapper .hold .final .left h3{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 12px;
+}
+
+.main .wrapper .hold .final .left .down .usd{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F4F4F4;
+    width: 129px;
+    padding: 15px;
+    border-radius:22.5px;
+}
+.main .wrapper .hold .final .left .down .usd h6{
+    font-size: 12px;
+    font-weight: 400;
+}
+.main .wrapper .hold .final .left .down .line{
+    background-color: #EDEDED;
+    width: 471px;
+    border-radius: 22.5px;
+    height: 5px;
+}
+.main .wrapper .hold .final .left .down .rooms{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F4F4F4;
+    width: 170px;
+    padding: 15px;
+    border-radius: 22.5px;
+}
+.main .wrapper .hold .final .left .down .rooms h6{
+    font-size: 16px;
+    font-weight: 400;
+}
+.main .wrapper .hold .final .right{
+    align-items: center;
+    padding: 15px;
+}
+.main .wrapper .hold .final .right article{
+    line-height: 15px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.main .wrapper .hold .final .right article h3{
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+}
+.main .wrapper .hold .final .right h6{
+    font-size: 16px;
+    font-weight: 400;
+}
+.main .wrapper .hold .final .right button{
+    font-size: 16px;
+    color: white;
+    font-weight: 400;
+    background-color: #0957CB;
+    padding: 15px;
+    border-radius: 30px;
+    border: none;
+    width: 111px;
+}
+
+
+
+
+
+
+
